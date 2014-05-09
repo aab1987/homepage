@@ -12,38 +12,38 @@ i wpisujemy komendy (wa¿ne jest to, ¿eby wpisywaæ dok³adnie, czyli tam gdzie spa
 
 komendê koñczymy klikaj¹c enter) :
 
-    'git config --global user.name "Twoje imiê"'  
+    git config --global user.name "Twoje imiê"  
 
 
-    'git config --global user.email "Twoj_email"'
+    git config --global user.email "Twoj_email"
 
 s³u¿¹ one naszej identyfikacji
 
 mo¿emy sprawdziæ ustawienia wpisuj¹c:
 
-    'git config --list'
+    git config --list
 
 Teraz tworzymy plik z nasz¹ stron¹ internetow¹, np. index.html i zapisujemy na dysku.
 
 Inicjalizujemy nasze pierwsze repozytorium wpisuj¹c
 
-   'git init'
+    git init
 
 a nastepnie dodajemy nasz plik index.html
 
-  'git add index.html'
+    git add index.html
 
 wykonujemy commit, czyli zatwierdzamy zmiany
 
-  'git commit -m "tu piszemy komentarz, np. pierwszy commit"'
+    git commit -m "tu piszemy komentarz, np. pierwszy commit"
 
 Je¿eli siê pomylimy i zorientujemy przed wykonaniem komendy "add" i "commit" to mo¿emy porzuciæ zmiany przy pomocy polecenia 
 
-  'git checkout index.html' - po takim poleceniu zawartoœæ pliku index.html bêdzie taka jak w ostatnim znanym commicie. 
+    git checkout index.html - po takim poleceniu zawartoœæ pliku index.html bêdzie taka jak w ostatnim znanym commicie. 
 
 Historiê commitów sprawdzamy:
 
-  'git log'
+    git log
 
 
 ## GITHUB.COM : 
@@ -52,7 +52,7 @@ Aby móc ³¹czyæ siê z githubem potrzebujemy wygenerowaæ klucz ssh.
 
 Wpisujemy:
 
-      'ssh-keygen -t rsa -C "Twoj_email@email.com"'
+    ssh-keygen -t rsa -C "Twoj_email@email.com"
 
 Pojawia nam siê info gdzie mamy ten wygenerowany klucz.
 
@@ -64,7 +64,7 @@ W menu Account Settings (prawy górny róg-ikonka klucza p³askiego) wybieramy SSH 
 
 Wracamy do naszego terminala i wpisujemy:
    
-     'ssh -T git@github.com'
+    ssh -T git@github.com
 
 Ponownie wchodzimy na g³ówn¹ stronê github.com ( przyciskiem home jest tu oœmiornicokotek - lewy górny róg) i klikamy New 
 
@@ -72,11 +72,11 @@ repository,tworzymy jakieœ.
 
 Teraz wpisujemy w terminalu: 
 
-    'git remote add origin git@github.com:twojlogin/nazwa_repozytorium.git'
+    git remote add origin git@github.com:twojlogin/nazwa_repozytorium.git
 
 And the last one:
 
-   'git push -u origin master'
+    git push -u origin master
 
 
 

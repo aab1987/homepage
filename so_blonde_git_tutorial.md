@@ -85,7 +85,8 @@ Mo¿emy klonowaæ repezytoria kole¿anek i kolegów. A robimy to tak:
 
 klikamy nazwê u¿ytkownika, np. szemek. Wchodzimy w zak³adkê Repositories, nastêpnie klikamy jakiekolwiek repozytorium i wtedy po prawej 
 
-stronie mamy : You can clone with... zaznaczamy SSH i kopiujemy i potem klonujemy przy pomocy komendy:
+stronie mamy : You can clone with... zaznaczamy SSH i kopiujemy i potem klonujemy przy pomocy komendy: 
+
     git clone "i tutaj wklejamy lub przepisujemy(na windowsie;)) adres repozytorium"
 
 
